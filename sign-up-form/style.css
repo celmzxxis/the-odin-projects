@@ -112,3 +112,91 @@ img{
     margin-bottom: 20px;
     font-size: 0.9em;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+form .entries{
+    background-color: white;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 0.9em;
+    padding: 15px 30px;
+    line-height: 1.25;
+}
+
+form .banner{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+form div.input-grid div{
+    display: flex;
+    flex-direction: column;
+}
+
+form div.input-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+form label{
+    font-size: 0.75em;
+    /* font-weight: lighter; */
+    /* opacity: 0.6; */
+    margin-bottom: 5px;
+}
+
+input{
+    width: 60%;
+    padding: 5px;
+    font-size: 'Inter';
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid blue;
+    
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+
+.entries{
+    margin-bottom: 20px;
+}
+
+.submit{
+    background-color: rgb(245, 236, 236) ;
+    padding: 30px;
+    flex: 1;
+    border-top: 0.5px solid  rgb(245, 236, 236);
+    box-shadow:0 0 6px 0.5px  rgb(159, 156, 156) ;
+
+}
+
+.submit button{
+    background-color: #596D48;
+    margin-top: 0;
+    padding: 0.7em 2.8em;
+    color: white;
+    font-family: 'Inter';
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid #596D48;
+}
+
+.submit p{
+    font-family: 'Inter';
+
+}
+
+
