@@ -156,7 +156,7 @@ form label{
 input{
     width: 60%;
     padding: 5px;
-    font-size: 'Inter';
+    font-family: 'Inter';
 }
 
 input:focus{
@@ -192,6 +192,9 @@ input:invalid{
     cursor: pointer;
     font-weight: 600;
     border: 1px solid #596D48;
+    position: relative;
+    top: -10px;
+    box-shadow: 0 0 6px 0.5px rgb(159, 156, 156);
 }
 
 .submit p{
