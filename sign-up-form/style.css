@@ -65,29 +65,29 @@ body, html{
 }
 
 .logo{
-    height: 70px;
-    width: 70px;             
+    height: 10px;
+    width: 10px;             
     object-fit: contain;  
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .text{
     font-family: 'Norse Bold';
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 1;
 }
 .right{
     width: 60%;
-    padding: 50px;
+    padding: 0 50px;
     background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .section-1{
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 
 .section-1 p{
